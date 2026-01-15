@@ -1,0 +1,20 @@
+{
+  "name": "cse341-contact-project",
+  "version": "1.0.0",
+  "description": "My Contact Project",
+  "homepage": "https://github.com/andersonhavah/cse341-contact-project#readme",
+  "bugs": {
+    "url": "https://github.com/andersonhavah/cse341-contact-project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersonhavah/cse341-contact-project.git"
+  },
+  "license": "ISC",
+  "author": "Anderson Havah",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
