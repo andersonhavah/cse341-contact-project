@@ -12,10 +12,10 @@ mongodb.initDb((err) => {
     console.log('Unable to connect to database', err);
     process.exit(1);
   } else {
+    app.listen(PORT, () => {
+    console.log(`Database is listening and node running on port ${PORT}.`);
+    });
     console.log('Database connection established.');
   } 
 });
 
-app.listen(PORT, () => {
-  console.log(`Database is listening and node running on port ${PORT}.`);
-});
