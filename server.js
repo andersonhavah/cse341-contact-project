@@ -6,8 +6,9 @@ const bodyParser = require('body-parser');
 
 const PORT = process.env.PORT || 3000;
 
-app.use('/', routes);
 app.use(bodyParser.json());
+
+app.use('/', routes);
 
 mongodb.initDb((err) => {
   if (err) {
