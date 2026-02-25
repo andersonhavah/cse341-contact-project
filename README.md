@@ -71,7 +71,7 @@ Create a `.env` file in the root directory with the following variables:
 
 ```env
 # Database Configuration
-MONGODB_URL=mongodb+srv://username:password@cluster.mongodb.net/databaseName
+MONGODB_URL= `Input the URL link here`
 
 # GitHub OAuth Configuration
 GITHUB_CLIENT_ID=your_github_client_id
